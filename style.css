@@ -30,7 +30,7 @@
     font-weight: 400;
 
 }
-.imgDiv{
+.Order-Button{
     padding-top: 50px;
 }
 .first-section2 img{
@@ -39,4 +39,45 @@
     height: 550px;
     width: 600px;
 
+}
+.second-section{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    margin-top: 100px;
+}
+.second-section1{
+    width: 50%;
+}
+.second-section2{
+    width: 50%;
+    padding-top: 40px;
+}
+.second-section1 img{
+    height: 550px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.second-section2 h1{
+    color: gray;
+    font-weight: bold;
+    font-size: 40px;
+}
+.second-section2 p{
+    font-size: 20px;
+    color: gray;
+}
+.second-section2 a{
+    background-image: linear-gradient(#ff0000, orange);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+    font-weight: bold;
+    font-size:20px ;
+
+}
+.contact-Button{
+     padding-top: 100px;
 }
