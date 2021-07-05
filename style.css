@@ -28,7 +28,7 @@
     border-radius: 30px;
     color: white;
     font-weight: 400;
-
+    
 }
 .Order-Button{
     padding-top: 50px;
@@ -38,7 +38,7 @@
     padding-right: 20px;
     height: 550px;
     width: 600px;
-
+    
 }
 .second-section{
     display: flex;
@@ -76,8 +76,109 @@
     font-weight: 400;
     font-weight: bold;
     font-size:20px ;
-
+    
 }
 .contact-Button{
-     padding-top: 100px;
+    padding-top: 100px;
+}
+.Racipie{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.racipie-heading{
+    padding-top: 30px;
+}
+.racipie-heading h1{
+    color: grey;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.racipie-heading p{
+    color: rgb(63, 61, 61);
+    text-align: justify;
+    text-align: center;
+    font-size: 20px;
+}
+.soup{
+    width: 30%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+.salad{
+    width: 30%;
+    margin-left: 30px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 30px;
+}
+.desserts{
+    width: 30%;
+    margin-left: 30px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 30px;
+}
+.soup img{
+    
+    
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-left: 40px;
+    
+    
+}
+.salad img{
+    
+    margin-top: 15px;
+    border-radius: 20px;
+    margin-left: 40px;
+    
+    
+    
+}
+.desserts img{
+    
+    margin-top: 15px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.Item{
+    margin-top: 15px;
+    border-radius: 20px;
+    margin-left: 40px;
+    
+}
+.soup h1{
+    text-align: center;
+    color: rgb(14, 11, 11);
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+.salad h1{
+    text-align: center;
+    color: rgb(14, 11, 11);
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.desserts h1{
+    text-align: center;
+    color: rgb(14, 11, 11);
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.soup p{
+    padding: 10px;
+    
+}
+.salad p{
+    padding: 10px;
+    
+}
+.desserts p{
+    padding: 10px;
+    
 }
