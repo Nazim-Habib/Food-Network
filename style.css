@@ -1,5 +1,42 @@
 
-.first-section{
+.nav{
+    margin-top: 20px;
+    width: 100%;
+    background-color: slategray;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a{
+    padding: 20px 35px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.nav ul li a:hover{
+    color: yellow;
+    background-color:red;
+    
+}
+.nav ul li ul{
+    position: absolute;
+    background-color: rgb(143, 22, 143);
+    left: -9999px;
+}
+.nav ul li:hover ul{
+    left: 0px;
+}
+.nav ul li ul li{
+    width: 144px;
+    border:  1px solid rgb(29, 153, 175);
+}
+
+
+.first-section-two-sub{
     display: flex;
 }
 .first-section1{
