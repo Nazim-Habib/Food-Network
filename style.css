@@ -1,6 +1,8 @@
 
 .nav{
     margin-top: 20px;
+    
+    padding-left: 200px;
     width: 100%;
     background-color: slategray;
 }
@@ -24,7 +26,7 @@
 }
 .nav ul li ul{
     position: absolute;
-    background-color: rgb(143, 22, 143);
+    background-color: rgb(145, 104, 145);
     left: -9999px;
 }
 .nav ul li:hover ul{
@@ -34,6 +36,33 @@
     width: 144px;
     border:  1px solid rgb(29, 153, 175);
 }
+.search-block{
+    margin-top: 20px;
+}
+.search-block h1{
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    
+}
+.search-block input {
+    margin-left: 530px;
+    background-color: turquoise;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.search-block button{
+    margin-left: 20px;
+    background-image: linear-gradient(#ff1e00, #ffc400);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
 
 
 .first-section-two-sub{
